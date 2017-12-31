@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Web Driver Setup is complete]]>
+    </line>
+    <line>
+      <![CDATA[base template reading is done]]>
+    </line>
+    <line>
+      <![CDATA[modified template reading is done]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="11860" started-at="2017-09-30T21:43:05Z" finished-at="2017-09-30T21:43:17Z">
+    <groups>
+    </groups>
+    <test name="Nopackage" duration-ms="11860" started-at="2017-09-30T21:43:05Z" finished-at="2017-09-30T21:43:17Z">
+      <class name="learnPDF.learnPDF.ComparePdfFiles">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:learnPDF.learnPDF.ComparePdfFiles@9629756]" name="setUpDriver" is-config="true" duration-ms="10469" started-at="2017-09-30T22:43:05Z" finished-at="2017-09-30T22:43:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Web Driver Setup is complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="CompareTextInTwoPdfs()[pri:0, instance:learnPDF.learnPDF.ComparePdfFiles@9629756]" name="CompareTextInTwoPdfs" duration-ms="723" started-at="2017-09-30T22:43:16Z" finished-at="2017-09-30T22:43:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[base template reading is done]]>
+            </line>
+            <line>
+              <![CDATA[modified template reading is done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CompareTextInTwoPdfs -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:learnPDF.learnPDF.ComparePdfFiles@9629756]" name="teardown" is-config="true" duration-ms="641" started-at="2017-09-30T22:43:16Z" finished-at="2017-09-30T22:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- learnPDF.learnPDF.ComparePdfFiles -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+
+<listeners>
+<listener class-name="learnPDF.learnPDF.customlogger.CustomLogging"></listener>
+</listeners>
+  <test name="Nopackage" >
+    <classes>
+       <class name="learnPDF.learnPDF.ComparePdfFiles" />
+    </classes>
+  </test>
+ 
+
+</suite>
